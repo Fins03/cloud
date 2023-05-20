@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM cloudreve/cloudreve:latest
 
 WORKDIR /cloudreve
 
