@@ -1,7 +1,7 @@
 FROM cloudreve/cloudreve:latest
-
+ADD conf.ini ./
 WORKDIR /cloudreve
-ADD conf.ini ./cloudreve
+
 EXPOSE 5212
 
 ENTRYPOINT ["./cloudreve"]
