@@ -1,5 +1,5 @@
 FROM cloudreve/cloudreve:latest
-ADD conf.ini /path/to/
+#ADD conf.ini /path/to/
 WORKDIR /cloudreve
 
 EXPOSE 5212
